@@ -1,0 +1,9 @@
+---
+
+- name: installing docker
+  hosts: client
+  gather_facts: true
+  roles:
+    - /task/prasanth/docker_installer/roles/docker_installer
+
+...
